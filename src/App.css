@@ -44,13 +44,15 @@ body{
 .game {
   /* border: 1px solid black; */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: black;
 }
 
 .game-board{
   background-color: #fff;
+  margin-bottom: 20px;;
 }
 
 .status{
@@ -76,4 +78,19 @@ body{
   background-color: black;
   color: white;
   font-size: 50px;
+}
+
+.replay-btn{
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.021);
+  color: white;
+  padding: 16px 32px;
+}
+
+.replay-btn:hover{
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.205);
+  cursor: pointer;
+  color: white;
+  padding: 16px 32px;
 }
