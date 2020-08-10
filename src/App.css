@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: black;
+}
+
+.game {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+
+.game-board{
+  background-color: #fff;
+}
+
+.status{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: none;
+}
+/* .board-row {
+  border: 1px solid white;
+} */
+
+.square {
+  margin: 2px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+}
